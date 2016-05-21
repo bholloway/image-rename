@@ -1,0 +1,14 @@
+{
+  "name": "image-rename",
+  "version": "0.0.1",
+  "description": "Rename files by exif data",
+  "bin": {
+    "image-rename": "./bin/index.js"
+  },
+  "author": "bholloway",
+  "license": "MIT",
+  "dependencies": {
+    "exif-reader": "^1.0.0",
+    "title-case": "^1.1.2"
+  }
+}
